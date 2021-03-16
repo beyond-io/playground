@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
             override.nfs.functional = false
             aws.keypair_name = "id_rsa"
             aws.ami = "ami-08bac620dc84221eb"
-            aws.instance_type = "t3.micro"
+            aws.instance_type = "t2.micro"
             aws.region = "eu-west-1"
             aws.subnet_id = "subnet-9bf73cc1"
             aws.security_groups = ["sg-7b78fe07"]
